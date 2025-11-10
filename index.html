@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>24/7 Customer Support | Onchain Support</title>
-  <meta name="description" content="Need help with your Onchain account or crypto transactions? Our support team is available 24/7." />
+  <title>Onchain Support | 24/7 Customer Help</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Link to your custom Tailwind CSS file -->
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="index.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div id="root" style="text-align:center; margin-top:100px;">
-    <h1>Welcome to Onchain Support</h1>
-    <p>If you are seeing this page, your GitHub Pages site is working correctly.</p>
+
+<body class="bg-background text-foreground font-sans flex items-center justify-center min-h-screen">
+  <div class="container max-w-xl mx-auto text-center bg-card border border-card-border rounded-lg shadow-md p-8">
+    <h1 class="text-3xl font-bold mb-4 text-primary">Welcome to Onchain Support</h1>
+    <p class="text-muted-foreground text-lg mb-6">
+      If you are seeing this page, your <span class="font-semibold text-primary">GitHub Pages</span> site is working correctly.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="mailto:support@onchainsupport.com"
+         class="bg-primary text-primary-foreground hover:bg-blue-700 font-medium py-2 px-4 rounded-md hover-elevate transition">
+         📩 Email Support
+      </a>
+
+      <a href="#live-chat"
+         class="bg-secondary text-secondary-foreground hover:bg-muted font-medium py-2 px-4 rounded-md hover-elevate-2 transition">
+         💬 Live Chat
+      </a>
+    </div>
   </div>
+
+  <footer class="absolute bottom-4 w-full text-center text-sm text-muted-foreground">
+    © 2025 Onchain Support — All rights reserved.
+  </footer>
 </body>
 </html>
