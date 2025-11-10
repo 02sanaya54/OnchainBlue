@@ -2,53 +2,99 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
     <title>Onchain Scam Alert - Protect Yourself from Cryptocurrency Fraud</title>
-    <meta name="description" content="Learn how to identify and protect yourself from onchain cryptocurrency scams including phishing, rug pulls, fake airdrops, smart contract exploits, and more. Essential security education for crypto users." />
-    <meta property="og:title" content="Onchain Scam Alert - Protect Yourself from Cryptocurrency Fraud" />
-    <meta property="og:description" content="Comprehensive guide to identifying and avoiding onchain scams. Stay safe in the crypto ecosystem." />
+
+    <meta
+      name="description"
+      content="Learn how to identify and protect yourself from onchain cryptocurrency scams including phishing, rug pulls, fake airdrops, malicious smart contracts, and more. Essential security education for crypto users."
+    />
+    <meta
+      property="og:title"
+      content="Onchain Scam Alert - Protect Yourself from Cryptocurrency Fraud"
+    />
+    <meta
+      property="og:description"
+      content="Comprehensive guide to identifying and avoiding onchain scams. Stay safe in the crypto ecosystem."
+    />
     <meta property="og:type" content="website" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+
+    <!-- ✅ Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
-  <body class="font-sans antialiased bg-background text-foreground">
 
-    <main class="p-6 md:p-12 max-w-4xl mx-auto">
-      <header class="mb-10 text-center">
-        <h1 class="text-4xl font-bold mb-2">Onchain Scam Alert</h1>
-        <p class="text-lg text-muted-foreground">Protect Yourself from Cryptocurrency Fraud</p>
-      </header>
+  <body class="bg-gray-50 text-gray-800">
+    <main class="flex flex-col min-h-screen justify-center items-center px-4">
+      <div
+        class="bg-white p-8 rounded-2xl shadow-lg max-w-2xl w-full border border-gray-200"
+      >
+        <header class="text-center mb-6">
+          <h1 class="text-4xl font-bold text-blue-700 mb-2">
+            Onchain Scam Alert
+          </h1>
+          <p class="text-gray-600">
+            Protect Yourself from Cryptocurrency Fraud
+          </p>
+        </header>
 
-      <section class="space-y-6">
-        <h2 class="text-2xl font-semibold">🔍 Identify Onchain Scams</h2>
-        <p>
-          Cryptocurrency scams can take many forms — phishing links, fake airdrops, malicious smart contracts, and more.
-          Always double-check wallet addresses and never share your private keys.
-        </p>
+        <section class="space-y-6">
+          <div>
+            <h2 class="text-2xl font-semibold mb-2">🔍 Identify Onchain Scams</h2>
+            <p class="text-gray-700 leading-relaxed">
+              Cryptocurrency scams can take many forms — phishing links, fake
+              airdrops, malicious smart contracts, and more. Always double-check
+              wallet addresses and never share your private keys.
+            </p>
+          </div>
 
-        <h2 class="text-2xl font-semibold">🧠 Learn to Stay Safe</h2>
-        <p>
-          Before interacting with any onchain platform, verify the project’s authenticity and read community feedback.
-          Remember: If it sounds too good to be true, it probably is.
-        </p>
+          <div>
+            <h2 class="text-2xl font-semibold mb-2 text-pink-600">
+              🧠 Learn to Stay Safe
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+              Before interacting with any onchain platform, verify the project’s
+              authenticity and read community feedback. Remember: If it sounds
+              too good to be true, it probably is.
+            </p>
+          </div>
 
-        <div class="mt-8 p-6 rounded-lg border hover-elevate bg-card shadow">
-          <h3 class="font-semibold text-lg mb-2">Quick Safety Tips</h3>
-          <ul class="list-disc pl-6 space-y-2">
-            <li>Never click on unknown wallet connection pop-ups.</li>
-            <li>Use hardware wallets for large holdings.</li>
-            <li>Confirm smart contract sources before signing.</li>
-            <li>Stay updated with verified onchain security channels.</li>
-          </ul>
-        </div>
-      </section>
+          <div
+            class="bg-blue-50 p-6 rounded-lg border border-blue-200 shadow-inner"
+          >
+            <h3 class="font-semibold text-lg mb-3 text-blue-700">
+              ⚡ Quick Safety Tips
+            </h3>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Never click on unknown wallet connection pop-ups.</li>
+              <li>Use hardware wallets for large holdings.</li>
+              <li>Confirm smart contract sources before signing.</li>
+              <li>Stay updated with verified onchain security channels.</li>
+            </ul>
+          </div>
+        </section>
 
-      <footer class="mt-10 text-center text-sm text-muted-foreground border-t pt-4">
-        © 2025 Onchain Scam Alert | Stay Safe in the Crypto World
-      </footer>
+        <footer class="mt-8 text-center text-sm text-gray-500 border-t pt-4">
+          © 2025 Onchain Scam Alert | Stay Safe in the Crypto World
+        </footer>
+      </div>
     </main>
   </body>
 </html>
